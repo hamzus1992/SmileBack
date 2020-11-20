@@ -114,6 +114,7 @@
           <element id="library" level="project" name="Maven: org.xmlunit:xmlunit-core:2.7.0" />
           <element id="library" level="project" name="Maven: io.springfox:springfox-core:2.8.0" />
           <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.10.18" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.20" />
         </element>
       </element>
       <element id="directory" name="META-INF">
