@@ -24,9 +24,6 @@ public class ZoneGeographiqueEntity {
 
     private String name;
 
-    @OneToOne
-    UserEntity userEntity;
-
 
     @OneToMany(mappedBy = "zoneGeographique")
     @JsonIgnore
