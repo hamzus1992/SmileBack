@@ -55,8 +55,11 @@ public class SecSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(final HttpSecurity http) throws Exception {
+        http.authorizeRequests().antMatchers("/").permitAll().and().authorizeRequests()
+                .antMatchers("/h2/console/**").permitAll();
 
-
+http.csrf().disable();
+http.headers().frameOptions().disable();
     // @formatter:on
     }
 
